@@ -1,1 +1,3 @@
-# fire-imaging
+fire-imaging
+
+CrowdDoing initiative
