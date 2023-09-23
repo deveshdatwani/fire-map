@@ -6,3 +6,7 @@ from django.shortcuts import render
 
 def index(request):
     return render(request, "map.html")
+
+
+def hello(reques):
+    return HttpResponse("Hello world!")
