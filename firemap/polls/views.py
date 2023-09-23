@@ -10,3 +10,7 @@ def index(request):
 
 def hello(reques):
     return HttpResponse("Hello world!")
+
+
+def question(request, question_id):
+    return HttpResponse(f'The question id is {question_id}')

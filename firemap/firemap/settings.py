@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure-s(tej)+r@e#cvv1yp(%!t@=@dow42$2+r4&b%l#h=jj+1)d%w0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.30',]
-
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -56,8 +55,8 @@ ROOT_URLCONF = 'firemap.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
